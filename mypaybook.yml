@@ -7,6 +7,11 @@
      name: apache2
      state: present
 
+  - name: i want to install server on Redhat hosts
+    apt:
+     name: httpd
+     state: present
+
   - name: i want to start my server
     apt:
      name: apache2
