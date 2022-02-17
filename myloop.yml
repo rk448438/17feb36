@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebservers
   become: yes
   tasks: 
   - name: i want to install multi package
@@ -8,6 +8,6 @@
      state: present
     loop:
     - git
-    - Tree 
+    - tree 
     - wget
      
