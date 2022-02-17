@@ -13,9 +13,7 @@
 172.31.10.15
 
 
-[mywebservers:vars]
-mywebpackageforubuntu= apache2
-mywebpackageforredhat= httpd
+
 
 [mywebservers:vars]
 myjavapackageforredhat= java-1.8.0-openjdk
