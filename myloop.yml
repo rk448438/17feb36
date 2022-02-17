@@ -2,7 +2,7 @@
 - hosts: mywebservers
   become: yes
   tasks: 
-  - name: i want to install multiple package
+  - name: i want to install multi package
     apt:
      name: "{{item}}"
      state: present
