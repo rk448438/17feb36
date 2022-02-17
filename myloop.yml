@@ -2,6 +2,12 @@
 - hosts: mywebservers
   become: yes
   tasks: 
-   -name: loop
-     
+  - name: i want to install multiple package
+    apt:
+     name: "{{item}}"
+     state: present
+    loops:
+    - git
+    - tree 
+    - wget
      
