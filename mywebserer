@@ -1,0 +1,3 @@
+[myweberver:vars]
+mywebpackageforubuntu = apache2
+mywebpackageforubuntu = httpd
