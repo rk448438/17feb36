@@ -12,7 +12,8 @@
 172.31.10.11
 172.31.10.15
 
-
-
+[mywebservers:vars]
+mywebpackageforubuntu= apache222222
+mywebpackageforredhat= httpd
 
 
