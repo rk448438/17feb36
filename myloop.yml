@@ -1,0 +1,7 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks: 
+   -name: loop
+     
+     
