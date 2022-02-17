@@ -9,13 +9,13 @@
     when: ansible_os_family == "Debian"
 
   - name: i want to start my server
-    apt:
+    service:
      name: apache2
-     state: present
+     state: started
     when: ansible_os_family == "Debian"
 
   - name: i want to install server on Redhat hosts
-    apt:
+    yum:
      name: httpd
      state: present
     when: ansible_os_family == "RedHat"
