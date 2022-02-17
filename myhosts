@@ -15,6 +15,4 @@
 
 
 
-[mywebservers:vars]
-myjavapackageforredhat= java-1.8.0-openjdk
-myjavapackageforubuntu= openjdk-8-jre
+
