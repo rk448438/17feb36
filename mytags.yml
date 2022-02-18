@@ -1,0 +1,15 @@
+--- 
+- hosts: 172.31.47.96
+  become: yes
+  tasks:
+  - name: i want to install webserver on ubuntu
+    apt: 
+      name: apache2
+      state: present
+    tags: apache2
+
+  - name: i want to install tree
+    apt:
+      name: tree
+      state: present
+    tags: tree
