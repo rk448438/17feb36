@@ -14,7 +14,7 @@
       state: present
     tags: mytree
   
-  - name: error
+  - name: 
     ignore_errors: yes
 
   - name: i want to install wget

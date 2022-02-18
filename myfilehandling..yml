@@ -1,0 +1,8 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - name: i want to make file
+    file:
+    path:
+    state: touch
