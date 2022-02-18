@@ -13,7 +13,8 @@
       name: treeeee
       state: present
     tags: mytree
-
+    ignore_error: yes
+    
   - name: i want to install wget
     apt: 
       name: wget
