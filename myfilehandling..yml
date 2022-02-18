@@ -4,5 +4,5 @@
   tasks:
   - name: i want to make file
     file:
-    path: etc/some file
-    state: touch
+      path: home/ubuntu/mytestfile
+      state: touch
