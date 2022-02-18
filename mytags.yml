@@ -6,10 +6,16 @@
     apt: 
       name: apache2
       state: present
-    tags: apache2
+    tags: myapache2
 
   - name: i want to install tree
     apt:
       name: tree
       state: present
-    tags: tree
+    tags: mytree
+
+  - name: i want to install wget
+    apt: 
+      name: wget
+      state: present
+    tags: myweget
