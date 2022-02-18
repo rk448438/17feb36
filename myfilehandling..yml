@@ -1,8 +1,5 @@
 ---
-- hosts: mywebservers
+- hosts: 172.31.47.96
   become: yes
   tasks:
-  - name: i want to make file
-    file:
-      path: /home/ubuntu/mytestfile
-      state: touch
+  - include_tasks: myfile.yml

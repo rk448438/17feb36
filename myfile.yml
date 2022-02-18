@@ -1,0 +1,5 @@
+--- 
+- name: i want to make file on ubuntu server
+  file:
+      path: /home/ubuntu/mytestfile
+      state: touch
