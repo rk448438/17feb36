@@ -12,9 +12,6 @@
     apt:
       name: treeeee
       state: present
-    tags: mytree
-  
-  - name: 
     ignore_errors: yes
 
   - name: i want to install wget
