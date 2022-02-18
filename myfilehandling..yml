@@ -5,3 +5,5 @@
   - include_tasks: 
       myfile.yml
       mywebfile.yml  
+
+    ignore_errors: yes
