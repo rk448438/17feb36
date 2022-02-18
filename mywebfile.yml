@@ -1,0 +1,5 @@
+--- 
+ - name: i want to install web server on ubuntu
+   apt:
+     name: apache2
+     state: present
