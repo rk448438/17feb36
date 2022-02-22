@@ -1,2 +1,8 @@
 ---
 # tasks file for mywebrole
+
+
+- name: i want to install weberver on nodes
+  apt:
+    name: apache2
+    state: present
