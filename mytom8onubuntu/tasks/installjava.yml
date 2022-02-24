@@ -4,7 +4,7 @@
     update_cache: yes
 
 
-- name: i want to install java
+- name: i want to install java development kit 
   apt:
    name: default-jdk
    state: present

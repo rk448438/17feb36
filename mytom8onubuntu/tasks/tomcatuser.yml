@@ -1,11 +1,11 @@
 ---
-- name: tomcat user 
-  user: 
+- name: create group 
+  group: 
     name: tomcat
     state: present
 
 
-- name: add user 
+- name: create user 
   user:
     name: tomcat
     shell: /bin/false
