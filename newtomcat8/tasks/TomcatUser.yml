@@ -1,0 +1,12 @@
+- name: create tomcat group
+  group:
+    name: tomcat
+    state: present
+
+- name: Add the user tomcat
+  user:
+    name: tomcat
+    shell: /bin/flase
+    groups: tomcat
+    home: /opt/tomcat
+    state: present

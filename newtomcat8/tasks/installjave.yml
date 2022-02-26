@@ -1,0 +1,9 @@
+--- 
+- name: i want to update 
+  apt:
+   update_cache: yes
+
+- name: install java pacakage kit
+  apt: 
+   name: default-jdk
+   state: present
