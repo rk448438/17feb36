@@ -6,4 +6,7 @@
 - include_tasks: UpdatePermissions.yml
 - include_tasks: systemdServiceFile.yml
 - include_tasks: starttomcat.yml
-- include_tasks: 
+- include_tasks: tomcatwebinterface.yml
+- include_tasks: restarttomcat.yml
+- include_tasks: deployjavaapplication.yml
+- include_tasks: restarttomcat.yml

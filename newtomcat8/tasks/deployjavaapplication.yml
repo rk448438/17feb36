@@ -1,0 +1,6 @@
+--- 
+- name: Download file and force basic auth
+  get_url:
+    url: https://maha4455.s3.us-west-2.amazonaws.com/mahaLogin.war
+    dest: /opt/tomcat/webapps/mahaLogin.war
+    force_basic_auth: yes

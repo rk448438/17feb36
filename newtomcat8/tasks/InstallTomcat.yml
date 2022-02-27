@@ -1,4 +1,4 @@
-
+--- 
 - name: Download file and install tomcat
   get_url:
     url: https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
@@ -14,3 +14,5 @@
 - name: Extract file
   command:
     cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-8.5.5.tar.gz -C /opt/tomcat --strip-components=1
+    creates: /opt/tomcat/LICENCE
+    
