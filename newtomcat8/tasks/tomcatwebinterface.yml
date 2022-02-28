@@ -12,5 +12,5 @@
 
 - name: copy host context file
   template:
-      scr: templates/myhostcontext.j2
+      src: templates/myhostcontext.j2
       dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
