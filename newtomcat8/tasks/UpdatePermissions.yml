@@ -19,8 +19,9 @@
     path: /opt/tomcat/conf
     group: tomcat
     state: directory
+    recurse: yes
     mode: g+x
-
+    
 - name: make the tomcat user the owner of webapps
   file:
     path: /opt/tomcat/webapps
